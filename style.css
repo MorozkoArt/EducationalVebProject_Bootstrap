@@ -55,10 +55,11 @@ main{
     width: 100%;
     object-fit: cover
 }
-.window-header{
-    background-color: var(--bs-secondary);
-    color: var(--bs-light);
+.alert{
     display: flex;
     justify-content: center;
+    font-size: 2vw;
+    font-weight: bold;
 }
+
 
