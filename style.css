@@ -45,4 +45,20 @@ main{
 .col img{
     width: inherit;
 }
+.img-photo{
+    height: 500px;
+    width: 100%;
+    object-fit: cover
+}
+.img-photo img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover
+}
+.window-header{
+    background-color: var(--bs-secondary);
+    color: var(--bs-light);
+    display: flex;
+    justify-content: center;
+}
 
