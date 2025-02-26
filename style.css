@@ -46,3 +46,11 @@ main{
     width: inherit;
 }
 
+.container:hover img{
+    opacity: 0.3;
+    transition: .8s opacity;
+}
+.container:hover img:hover{
+    opacity: 1;
+    transition: .8s opacity;
+}
