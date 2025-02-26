@@ -1,0 +1,36 @@
+.carousel-inner{
+    height: 600px;
+    object-fit: cover
+}
+.carousel-inner img{
+    height: 600px;
+    object-fit: cover
+}
+.card-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 1.5%;
+    box-sizing: border-box;
+}
+.card{
+    position: relative;
+    margin: 30px;
+    padding-bottom: 30px;
+
+}
+.card img{
+    height: 300px;
+}
+.card-header{
+    background-color: darkgrey;
+}
+main{
+    background-color: var(--bs-dark);
+}
+.accordion-button{
+    background: var(--bs-secondary);
+    color: var(--bs-light);
+}
