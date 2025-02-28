@@ -61,5 +61,29 @@ main{
     font-size: 2vw;
     font-weight: bold;
 }
+.container:hover img{
+    opacity: 0.3;
+    transition: .8s opacity;
+}
+.container:hover img:hover{
+    opacity: 1;
+    transition: .8s opacity;
+}
+.list{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.list-group{
+    display: flex;
+    margin: 10px;
+    width: 45%;
+}
+.header-hr{
+    color: var(--bs-light);
+    text-align: center;
+}
 
 
