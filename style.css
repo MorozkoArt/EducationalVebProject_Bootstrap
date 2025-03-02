@@ -61,14 +61,6 @@ main{
     font-size: 2vw;
     font-weight: bold;
 }
-.container:hover img{
-    opacity: 0.3;
-    transition: .8s opacity;
-}
-.container:hover img:hover{
-    opacity: 1;
-    transition: .8s opacity;
-}
 .list{
     flex-direction: row;
     display: flex;
@@ -90,7 +82,6 @@ main{
 .col-container-2{
     text-align: justify;
 }
-
 
 .container:hover img{
     opacity: 0.3;
