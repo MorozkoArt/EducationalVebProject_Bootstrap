@@ -91,3 +91,6 @@ main{
     opacity: 1;
     transition: .8s opacity;
 }
+.img-photo{
+    color: var(--bs-light);
+}
