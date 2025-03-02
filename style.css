@@ -45,6 +45,52 @@ main{
 .col img{
     width: inherit;
 }
+.img-photo{
+    height: 500px;
+    width: 100%;
+    object-fit: cover
+}
+.img-photo img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover
+}
+.alert{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.container:hover img{
+    opacity: 0.3;
+    transition: .8s opacity;
+}
+.container:hover img:hover{
+    opacity: 1;
+    transition: .8s opacity;
+}
+.list{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.list-group{
+    margin: 10px;
+    width: 45%;
+}
+.header-hr{
+    color: var(--bs-light);
+    text-align: center;
+}
+.container-two{
+    margin-top: 2rem;
+}
+.col-container-2{
+    text-align: justify;
+}
+
 
 .container:hover img{
     opacity: 0.3;
