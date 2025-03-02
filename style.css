@@ -77,13 +77,18 @@ main{
     margin-top: 10px;
 }
 .list-group{
-    display: flex;
     margin: 10px;
     width: 45%;
 }
 .header-hr{
     color: var(--bs-light);
     text-align: center;
+}
+.container-two{
+    margin-top: 2rem;
+}
+.col-container-2{
+    text-align: justify;
 }
 
 
