@@ -61,6 +61,8 @@ main{
     font-size: 2vw;
     font-weight: bold;
     margin: 0;
+    background-color: var(--bs-success);
+    border-radius: 0;
 }
 .list{
     flex-direction: row;
@@ -103,11 +105,10 @@ main{
     height: 100%;
     width: 18em;
     border-right: 1px solid #D7DBDD;
-    background-color: var(--bs-secondary);
+    background-color: #292929;
     padding: 10px;
 }
-.sideBar_item{
-    padding: 8px 10px;
+.accordion-item{
     font-size: 18px;
 }
 .sideBar_item:hover{
@@ -117,4 +118,17 @@ main{
     margin-bottom: 1em;
     border-top: 1px solid #D7DBDD;
     border-radius: 4px;
+}
+#itembuttonAccordion{
+    background-color: var(--bs-success);
+}
+#itembuttonAccordion:focus{
+    box-shadow: none;
+}
+.headerSideBar{
+    color: var(--bs-light);
+    margin-bottom: 1em;
+}
+.accordion-body{
+
 }
